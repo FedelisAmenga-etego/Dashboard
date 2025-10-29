@@ -6,3 +6,4 @@ plotly==6.1.1
 joblib==1.5.0
 scipy==1.15.3
 statsmodels>=0.14.4
+openpyxl
