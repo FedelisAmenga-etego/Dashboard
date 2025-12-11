@@ -683,6 +683,7 @@ if len(st.session_state.keys()) > 100:
 
 st.markdown(
     "<p style='text-align:center;font-size:13px;color:gray;margin-top:25px;'>"
-    "© 2025 Navrongo Health Research Centre – Built by Fedelis Wekia Amenga-etego</p>",
+    "© 2025 Navrongo Health Research Centre – Built by Fedelis Amenga-etego</p>",
     unsafe_allow_html=True
 )
+
