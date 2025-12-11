@@ -299,7 +299,7 @@ def render_plotly(fig):
 if selected_tab == 0:
     theme = PALETTES["overview"]
     st.markdown(f"<div style='background:{theme['bg']};padding:12px;border-radius:10px;'>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align:center;margin-bottom:6px;'>Overview</h2>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align:center;margin-bottom:6px;'>Overview</h4>", unsafe_allow_html=True)
 
     low_stock_count = (df["Quantity"] <= df["Reorder Level"]).sum() if "Quantity" in df.columns and "Reorder Level" in df.columns else 0
     exp_df = df.copy()
@@ -686,4 +686,5 @@ st.markdown(
     "© 2025 Navrongo Health Research Centre – Built by Fedelis Amenga-etego</p>",
     unsafe_allow_html=True
 )
+
 
